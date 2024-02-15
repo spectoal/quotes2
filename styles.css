@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: "avenger";
+    src: url(fonts/avengeance-font/Avengeance-YolO.ttf);
+}
+@font-face {
+    font-family: "HP";
+    src: url(fonts/parry-hotter/ParryHotter.ttf);
+}
+@font-face {
+    font-family: "MOVIE";
+    src: url(fonts/another_typewriter/atwriter.ttf);
+}
+@font-face {
+    font-family: "SW";
+    src: url(fonts/death-star-font/DeathStar-VmWB.ttf);
+}
+
+
+
+body {
+    height: 100%;
+    margin: 0;
+}
+main  {
+    background: rgb(156, 42, 14);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section { 
+
+    font-family: "MOVIE";
+    font-size: 3rem;
+    color:rgb(226, 226, 226);
+
+    width: 50%;
+    
+    padding: 1rem 4rem 2rem 5rem;
+  
+    background: rgba(35, 35, 35, 0.2);
+    border: 5px dotted rgba(0, 0, 0, 0.2);
+
+    position: relative;
+
+    flex-direction: column;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    section{
+        max-width: 98%;
+    }
+}
+
+
+section cite {
+    color: rgb(20, 20, 20);
+    font-size: 2rem;
+}
+
+
+
+.buttons {
+
+    font-size: 1rem;
+
+    padding: .7rem 0 .5rem 0;
+    margin: 2rem auto 1rem auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+.buttons button:nth-child(1) {
+    font-size: 30px;
+    font-family: "avenger";
+}
+.buttons button:nth-child(2) {
+    font-size: 30px;
+    font-family: "HP";
+} 
+.buttons button:nth-child(3) {
+    font-size: 30px;
+    font-family: "SW";
+} 
+
