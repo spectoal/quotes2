@@ -12,7 +12,7 @@ const marvelQuo = [
         text: "That's my secret Cap, I'm always angry.",
         author: "-Bruce Banner"
     }, {
-        text: "NONE OF THIS MAKES SENCE, BUT IM GOING BACK OUT THERE BECAUSE ITS MY JOB.",
+        text: "NONE OF THIS MAKES SENSE, BUT IM GOING BACK OUT THERE BECAUSE ITS MY JOB.",
         author: "-Hawkeye"
     }, {
         text: "I'm here to pick up a fossil.",
@@ -194,4 +194,4 @@ function generate2() {
 
 
 
-    const button = document.querySelector('button');
+const button = document.querySelector('button');
